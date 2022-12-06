@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    min-height: 100vh;
+    background-color: pink;
+}
+.produktReklamasjon{
+    position: absolute;
+}
+
+#knapper{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.knapp{
+    width: 20%;
+    height: 7vh;
+    background-color: white;
+    border-radius: 10vw;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.knapp:hover{
+    transform: scale(1.2);
+}
